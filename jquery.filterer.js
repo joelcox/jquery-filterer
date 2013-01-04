@@ -40,7 +40,7 @@
 						var text = $(record).find(el).text();
 
 						// Set up the regular expresion, case-insensitive
-						var regexp = new RegExp(searchTerm, 'gi');
+						var regexp = new RegExp(searchTerm, 'i');
 						var matches = text.match(regexp);
 						if (matches) showRecord = true;
 

@@ -1,0 +1,8 @@
+{
+  "name": "jQuery Filterer",
+  "version": "0.0.1",
+  "main": "./jquery.filterer.js",
+  "dependencies": {
+	"jquery": "~1.8.3"
+  }
+}
